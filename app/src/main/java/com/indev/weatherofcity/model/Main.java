@@ -7,7 +7,7 @@ import java.io.Serializable;
 public class Main implements Serializable {
 
     @SerializedName("temp")
-    private double mTemp;
+    private double mTemperature;
 
     @SerializedName("pressure")
     private double mPressure;
@@ -15,8 +15,8 @@ public class Main implements Serializable {
     @SerializedName("humidity")
     private double mHumidity;
 
-    public int getTemp() {
-        return (int) mTemp;
+    public int getTemperature() {
+        return (int) mTemperature;
     }
 
     public int getPressure() {

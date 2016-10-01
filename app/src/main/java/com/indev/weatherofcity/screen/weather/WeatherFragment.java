@@ -115,7 +115,7 @@ public class WeatherFragment extends Fragment {
 
     private void showWeather() {
         if (mCity == null || mCity.getMain() == null || mCity.getWeather() == null ||
-        mCity.getWind() == null) {
+                mCity.getWind() == null) {
             showError();
             return;
         }
@@ -125,7 +125,7 @@ public class WeatherFragment extends Fragment {
 
         mToolbarTitle.setText(mCity.getName());
         mWeatherMain.setText(mCity.getWeather().getMain());
-        mTemperature.setText(getString(R.string.f_temperature, mCity.getMain().getTemp()));
+        mTemperature.setText(getString(R.string.f_temperature, mCity.getMain().getTemperature()));
         mPressure.setText(getString(R.string.f_pressure, mCity.getMain().getPressure()));
         mHumidity.setText(getString(R.string.f_humidity, mCity.getMain().getHumidity()));
         mWindSpeed.setText(getString(R.string.f_wind_speed, mCity.getWind().getSpeed()));

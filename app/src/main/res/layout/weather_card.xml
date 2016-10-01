@@ -40,7 +40,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/temperature"
+                android:drawableLeft="@drawable/ic_temperature"
                 android:drawablePadding="@dimen/padding_small"
                 android:text="@string/temperature"/>
 
@@ -63,7 +63,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/pressure"
+                android:drawableLeft="@drawable/ic_pressure"
                 android:drawablePadding="@dimen/padding_small"
                 android:text="@string/pressure"/>
 
@@ -86,7 +86,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/humidity"
+                android:drawableLeft="@drawable/ic_humidity"
                 android:drawablePadding="@dimen/padding_small"
                 android:text="@string/humidity"/>
 
@@ -109,7 +109,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:drawableLeft="@drawable/wind_speed"
+                android:drawableLeft="@drawable/ic_wind_speed"
                 android:drawablePadding="@dimen/padding_small"
                 android:text="@string/wind_speed"/>
 
@@ -131,7 +131,7 @@
         android:fontFamily="sans-serif-light"
         android:gravity="center"
         android:text="@string/weather_error"
-        android:textColor="@color/gray_880b1f35"
+        android:textColor="@color/secondaryText"
         android:textSize="@dimen/text.18"
         android:visibility="gone"/>
 

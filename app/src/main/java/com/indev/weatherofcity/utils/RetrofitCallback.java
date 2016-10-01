@@ -8,7 +8,7 @@ import retrofit2.Response;
 import rx.functions.Action0;
 import rx.functions.Action1;
 
-public class RetrofitCallback  {
+public class RetrofitCallback {
 
     private RetrofitCallback() {
 
