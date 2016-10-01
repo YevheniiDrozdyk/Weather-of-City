@@ -1,4 +1,4 @@
-package com.indev.weatherofcity.weather;
+package com.indev.weatherofcity.screen.weather;
 
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
