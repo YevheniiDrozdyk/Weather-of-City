@@ -6,6 +6,12 @@ import android.os.Bundle;
 
 import com.indev.weatherofcity.R;
 
+/**
+ * UI class, that displays weather of city.
+ *
+ * @author E.Drozyk
+ * @version 1.0 1 Nov 2016
+ */
 public class WeatherActivity extends AppCompatActivity {
 
     @Override

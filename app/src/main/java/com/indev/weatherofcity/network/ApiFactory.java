@@ -9,12 +9,16 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+/**
+ * Weather API factory.
+ *
+ * @author E.Drozyk
+ * @version 1.0 1 Nov 2016
+ */
 public class ApiFactory {
 
     private static OkHttpClient sClient;
 
-    //Переменная объявленная как volatile, любая запись её
-    // будет осуществляться прямо в память минуя кеш
     private static volatile WeatherService sService;
 
     private ApiFactory() {

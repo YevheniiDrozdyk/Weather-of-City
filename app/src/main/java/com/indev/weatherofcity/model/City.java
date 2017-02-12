@@ -8,6 +8,12 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Entity of city.
+ *
+ * @author E.Drozyk
+ * @version 1.0 1 Nov 2016
+ */
 public class City implements Serializable {
 
     @SerializedName("name")
@@ -21,6 +27,10 @@ public class City implements Serializable {
 
     @SerializedName("wind")
     private Wind mWind;
+
+    public City() {
+
+    }
 
     @NonNull
     public String getName() {

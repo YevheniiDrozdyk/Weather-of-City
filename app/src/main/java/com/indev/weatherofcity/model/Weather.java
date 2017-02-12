@@ -5,6 +5,12 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+/**
+ * Entity of weather.
+ *
+ * @author E.Drozyk
+ * @version 1.0 1 Nov 2016
+ */
 public class Weather implements Serializable {
 
     @SerializedName("main")

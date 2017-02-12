@@ -9,7 +9,14 @@ import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 
+/**
+ * Interceptor of API key.
+ *
+ * @author E.Drozyk
+ * @version 1.0 1 Nov 2016
+ */
 class ApiKeyInterceptor implements Interceptor {
+
     @Override
     public Response intercept(Chain chain) throws IOException {
         Request request = chain.request();

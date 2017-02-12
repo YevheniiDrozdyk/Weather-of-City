@@ -59,8 +59,6 @@ public class WeatherFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Вызов этого метода меняет жизненный цикл фрагмента, а именно, он убирает из него вызовы
-        //onCreate и onDestroy при пересоздании Activity
         setRetainInstance(true);
     }
 

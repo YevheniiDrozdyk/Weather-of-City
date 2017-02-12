@@ -4,6 +4,12 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+/**
+ * Entity of main screen.
+ *
+ * @author E.Drozyk
+ * @version 1.0 1 Nov 2016
+ */
 public class Main implements Serializable {
 
     @SerializedName("temp")

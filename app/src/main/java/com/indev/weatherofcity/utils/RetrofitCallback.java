@@ -8,6 +8,12 @@ import retrofit2.Response;
 import rx.functions.Action0;
 import rx.functions.Action1;
 
+/**
+ * Retrofit callback.
+ *
+ * @author E.Drozyk
+ * @version 1.0 1 Nov 2016
+ */
 public class RetrofitCallback {
 
     private RetrofitCallback() {

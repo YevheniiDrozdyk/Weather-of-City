@@ -17,6 +17,12 @@ import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+/**
+ * Loading dialog, that displays when data are downloads.
+ *
+ * @author E.Drozyk
+ * @version 1.0 1 Nov 2016
+ */
 public class LoadingDialog extends DialogFragment {
 
     private static final Handler HANDLER = new Handler(Looper.getMainLooper());
@@ -72,7 +78,7 @@ public class LoadingDialog extends DialogFragment {
 
         private int mAttempts = 10;
 
-        public HideTask(@NonNull FragmentManager fm) {
+        HideTask(@NonNull FragmentManager fm) {
             mFmRef = new WeakReference<>(fm);
         }
 
